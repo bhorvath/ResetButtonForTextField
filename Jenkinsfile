@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Preparation') {
             steps {
-                git url: 'https://github.com/bhorvath/ResetButtonForTextField.git', credentialsId: 'bitbucket'
+                git url: 'https://github.com/carmacloud/ResetButtonForTextField.git', credentialsId: 'bitbucket'
             }
         }
         stage('Build') {
